@@ -1,8 +1,6 @@
 # coding: utf-8 -*-
 
-from twisted.internet import reactor
-from twisted.internet import threads
-from twisted.internet import defer
+from twisted.internet import reactor, threads, defer
 
 
 def main_callback(result):
