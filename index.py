@@ -36,6 +36,7 @@ def processing(nums):
 
 #numbers to sqrt
 #(x, y): x - number, y - priority
+#ordering will be from smaller "priority" to bigger
 nums = [(2, 4),(3, 3), (4, 2), (5, 6)]
 
 d = processing(nums)
